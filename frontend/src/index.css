@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 /* Header css */
 header {
   background-color: #000000;
@@ -11,4 +12,40 @@ header a {
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
+}
+/* Featured product styling */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.products .product {
+  margin: 1rem;
+  border: 1px #000000 solid;
+  box-shadow: 7px 2px 20px 3px #dee2e6;
+}
+.products .product img {
+  width: 100%;
+  max-width: 400px;
+}
+.products .product-info {
+  padding: 1rem;
+}
+.products .product-name {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.products a {
+  text-decoration: none;
+  color: currentColor;
+}
+.products button {
+  background-color: blue;
+  color: #ffffff;
+}
+main {
+  padding: 1rem;
+}
+main .featured-name {
+  font-weight: bolder;
 }
